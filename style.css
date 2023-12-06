@@ -1,0 +1,317 @@
+*{
+    margin: .0;
+    padding: 0;
+    font-family:Misty Style; 
+    box-sizing: border-box;
+   
+
+}
+html,body{
+    width:100%;
+    height: 100%;
+   
+}
+#main{
+    width: 100%;
+}
+#nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding:2vw 8vw ;
+}
+#nleft{
+    display: flex;
+    gap: 30px;
+}
+#nav a{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#nav #middletag{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+#lead{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+    margin-top: 16vw;
+   
+    padding: 0vw 8vw;
+}
+#reliable{
+    width: 9vw;
+}
+#reliable p{
+    text-transform: capitalize;
+
+    opacity: 0.9;
+    font-size: 15px;
+    margin: 8px 0;
+}
+#reliable #relimagewrapper{
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    height: 16vw;
+   
+}
+#relimagewrapper img{
+    
+   
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#eminence{
+    position: relative;
+    width: 29vw;
+     min-height: 41vw;
+   
+}
+#imagentext{
+    width:fit-content;
+    height: fit-content;
+    
+
+    
+}
+    
+
+
+#eminence img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#eminence p{
+  
+    font-size: 1.3vw;
+    font-weight: 100;
+    letter-spacing: -.5;
+    width: 100%;
+    
+}
+
+#eminence #headings{
+    top: -150px;
+    left: -40%;
+    position: absolute;
+}
+
+#eminence h1{
+    
+    letter-spacing: -.2vw;
+    line-height:.8 ;
+    font-size: 7vw;
+    font-weight:100 ;
+}
+
+#be{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+#circleg{
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+   
+}
+#be h3{
+    font-weight: 100;
+    color:red;
+
+}
+#vision{
+    margin: 7vw;
+    display: flex;
+    justify-content:space-between;
+}
+#vision p{
+    line-height: 1.4;
+    position: relative;
+    right: 0;
+    font-weight: 100;
+
+   width: 80%;
+    text-align: right;
+    font-size: 1.8vw;
+}
+
+#vision span{
+    display: inline-block;
+    
+    border-radius: 100px;
+    margin: 0 8px;
+    margin-bottom: -12px;
+}
+#firstspan{
+    width: 90px;
+    height: 60px;
+    background-image: url(./fabio-lucas-1Z1wTrhH1Ck-unsplash.jpg);
+    background-size: cover;
+    background-position: 0% 27%;
+}
+
+#secspan{
+
+    width: 90px;
+    height: 50px;
+    background-image: url(./kate-laine-tlslFjPw0iU-unsplash.jpg);
+    background-size: cover;
+    background-position: 0% 50%;
+
+}
+
+#thirdspan{
+    width: 95px;
+    height: 45px;
+    background-image: url(./aaron-burden-Aa3ALtIxEGY-unsplash.jpg);
+    background-size: cover;
+    background-position: 0% 50%;
+
+}
+#pictures{
+    display: flex;
+    justify-content:space-between;
+    margin: 5vw;
+    padding: 3vw ;
+    padding-left: 14vw;
+    padding-right: 10vw;
+    
+}
+
+#picone {
+    width: 16vw;
+    
+   
+}
+
+#picone #firstimg{
+    width: 100%;
+    height:27vw ;
+    margin-bottom: 1vw;
+    
+}
+
+#firstimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#picone h1, #pictwo h1{
+    font-weight: 100;
+    font-size: 2vw;
+}
+#picone p, #pictwo p{
+    opacity: .9;
+    font-size: 1.5vw;
+    margin-top: 8px;
+}
+
+#pictwo {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 28vw;   
+}
+#pictwo #firstimg{
+    width: 100%;
+    height:39vw ;
+    margin-bottom: 1vw;
+    
+}
+#pictwo p{
+    width: 80%;
+    text-align: right;
+
+}
+
+#poster{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vw;
+}
+#pimg{
+    width: 65%;
+    height: 75vh;
+}
+#pimg img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+#ptext{
+    width:25% ;
+    padding: 0 3vw;
+}
+#ptext h1{
+    font-size: 3.2vw;
+    line-height: 1;
+}
+#ptext p{
+    margin-top: 20px;
+    font-size: 1.4vw;
+    width: 65%;
+    opacity: .9;
+}
+#biplab{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+
+}
+#biplab video{
+    opacity:0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    
+}
+
+#xtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+    background-color: white;
+    padding: 1vw 3vw;
+}
+
+
+#xtext button{
+    padding: 1vw 1.4vw;
+    font-size: 1.2vw;
+    text-transform: capitalize;
+    margin-top: 10px;
+    border-radius: 100px;
+    background-color:white ;
+    border: 1px solid #5e5e5e;
+
+}
